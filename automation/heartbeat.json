@@ -1,0 +1,25 @@
+{
+  "status": "healthy",
+  "timestamp": "2024-10-27T10:30:00Z",
+  "service": "infra-terraform",
+  "version": "1.2.3",
+  "environment": "production",
+  "dependencies": {
+    "terraform_version": "1.6.3",
+    "aws_provider_version": "5.0.0",
+    "database_connection": "ok",
+    "api_endpoint_reachable": true
+  },
+  "metrics": {
+    "cpu_utilization": 0.15,
+    "memory_usage_mb": 256,
+    "disk_space_free_gb": 10.5,
+    "response_time_ms": 20
+  },
+  "alerts": [
+    {
+      "severity": "info",
+      "message": "No critical alerts detected."
+    }
+  ]
+}
