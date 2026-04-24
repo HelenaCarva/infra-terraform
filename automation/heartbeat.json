@@ -4,22 +4,31 @@
   "service": "infra-terraform",
   "version": "1.2.3",
   "environment": "production",
+  "region": "us-east-1",
   "dependencies": {
     "terraform_version": "1.6.3",
     "aws_provider_version": "5.0.0",
-    "database_connection": "ok",
+    "database_connection": {
+      "status": "ok",
+      "details": "Successfully connected to the database."
+    },
     "api_endpoint_reachable": true
   },
   "metrics": {
     "cpu_utilization": 0.15,
     "memory_usage_mb": 256,
     "disk_space_free_gb": 10.5,
-    "response_time_ms": 20
+    "response_time_ms": 20,
+    "request_per_minute": 120
   },
   "alerts": [
     {
       "severity": "info",
       "message": "No critical alerts detected."
     }
-  ]
+  ],
+  "build_info": {
+    "build_id": "abc123xyz",
+    "build_date": "2024-10-26T18:00:00Z"
+  }
 }
