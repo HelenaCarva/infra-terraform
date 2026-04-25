@@ -1,34 +1,6 @@
 {
-  "status": "healthy",
-  "timestamp": "2024-10-27T10:30:00Z",
-  "service": "infra-terraform",
-  "version": "1.2.3",
-  "environment": "production",
-  "region": "us-east-1",
-  "dependencies": {
-    "terraform_version": "1.6.3",
-    "aws_provider_version": "5.0.0",
-    "database_connection": {
-      "status": "ok",
-      "details": "Successfully connected to the database."
-    },
-    "api_endpoint_reachable": true
-  },
-  "metrics": {
-    "cpu_utilization": 0.15,
-    "memory_usage_mb": 256,
-    "disk_space_free_gb": 10.5,
-    "response_time_ms": 20,
-    "request_per_minute": 120
-  },
-  "alerts": [
-    {
-      "severity": "info",
-      "message": "No critical alerts detected."
-    }
-  ],
-  "build_info": {
-    "build_id": "abc123xyz",
-    "build_date": "2024-10-26T18:00:00Z"
-  }
+  "account_id": "261770086:HelenaCarva",
+  "managed_by": "github_hack_safe_runtime",
+  "mode": "COMMIT",
+  "updated_at": "2026-04-25T07:01:13.098679+00:00"
 }
